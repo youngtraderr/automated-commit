@@ -1,7 +1,7 @@
 name: Keep Codespace Alive
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Jalankan setiap 6 jam
+    - cron: '*/30 * * * *'  # Jalankan setiap 30 menit
 jobs:
   keep-alive:
     runs-on: ubuntu-latest
